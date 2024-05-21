@@ -1,0 +1,100 @@
+html{
+    height: 100vh;
+    background-color: lightblue;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+#szabaly{
+    font-size: 30px;
+    float: left;
+    width: 400px;
+    margin: 50px;
+    margin-right: -450px;
+    margin-top: -50px;
+}
+
+#main{
+    margin: auto;
+    width: 474px;
+    height: 474px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.controls{
+    margin: auto;
+    width: 156px;
+    height: 156px;
+}
+
+.nagyMezo{
+    height: 156px;
+    width: 156px;
+    overflow: hidden;
+    border: .1px solid black;
+    float: left;
+    background-color: #fbebbb;
+}
+
+.mezo{
+    width: 50px;
+    height: 50px;
+    float: left;
+    border: 1px solid black;
+    color: darkcyan;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+.mezo:hover{
+    background-color: antiquewhite;
+}
+
+.rossz{
+    background-color: lightcoral;
+}
+
+.jo{
+    background-color: lightgreen;
+}
+
+.clicked{
+    background-color: lightslategray;
+}
+
+.btn{
+     margin: auto;
+    margin-top: 50px;
+    width: 150px;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: wheat;
+}
+
+button:hover{
+    background-color: antiquewhite;
+}
+
+#controlsDiv{
+    margin: auto;
+    margin-top: 100px;
+    height: 156px;
+    width: 156px;
+    text-align: center;
+}
+
+button{
+margin: 0;
+  position: absolute;
+}

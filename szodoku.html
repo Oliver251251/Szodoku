@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Szodoku</title>
+    <link rel="stylesheet" href="szodoku.css" />
+  </head>
+  <body>
+    <h1>Szodoku</h1>
+    <div id="szabaly">
+      <p>
+        The rules for sudoku are simple. A 9×9 square must be filled in with
+        numbers from 1-9 with no repeated numbers in each line, horizontally or
+        vertically. To challenge you more, there are 3×3 squares marked out in
+        the grid, and each of these squares can't have any repeat numbers
+        either.
+      </p>
+      <img src="kep.png" alt="szabalyKep" title="szabalyKep">
+    </div>
+    <div id="main"></div>
+    <div id="controlsDiv"></div>
+    <div class="btn"><button onclick="Ellenorzes()">Ellenőrzés</button></div>
+
+    <script src="szodoku.js"></script>
+  </body>
+</html>
